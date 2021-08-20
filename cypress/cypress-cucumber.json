@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://demoqa.com",
+    "integrationFolder": "cypress/integration/bdd",
+    "pluginsFile": "cypress/plugins/cucumber-plugins.js",
+    "ignoreTestFiles": [
+        "*.js",
+        "*.md"
+    ],
+    "testFiles": "**/*.{feature,features}"
+}
